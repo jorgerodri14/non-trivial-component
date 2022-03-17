@@ -1,0 +1,20 @@
+.subsciptions {
+  width: 30%;
+  height: 40%;
+  padding: 1vmin;
+  &__container {
+    margin: 2% 0 2% 0;
+  }
+  &__plan {
+    width: 50%;
+    margin: 1% 0 1% 0;
+    padding: 2%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    &__text {
+      font-size: 1.2em;
+      color: dimgray;
+    }
+  }
+}
